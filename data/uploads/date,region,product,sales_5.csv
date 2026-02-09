@@ -1,0 +1,16 @@
+date,region,product,sales
+2025-01-01,North,Widget A,120
+2025-01-02,North,Widget B,95
+2025-01-03,South,Widget A,150
+2025-01-04,South,Widget C,200
+2025-01-05,East,Widget B,80
+2025-01-06,East,Widget A,130
+2025-01-07,West,Widget C,175
+2025-01-08,West,Widget B,90
+2025-01-09,North,Widget A,140
+2025-01-10,South,Widget C,210
+2025-01-11,East,Widget B,100
+2025-01-12,West,Widget A,160
+2025-01-13,North,Widget C,190
+2025-01-14,South,Widget B,85
+2025-01-15,East,Widget A,145

@@ -1,0 +1,15 @@
+{
+  "store_sales.csv": {
+    "order_date": "PreviousPurchases",
+    "order_id": "CustomerID",
+    "quantity": "Age",
+    "unit_price": "",
+    "revenue": "Amount",
+    "cost": "",
+    "product_name": "ItemPurchased",
+    "product_id": "",
+    "category": "Category",
+    "region": "",
+    "customer_id": "CustomerID"
+  }
+}

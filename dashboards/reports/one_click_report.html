@@ -1,0 +1,35 @@
+
+        <!doctype html>
+        <html>
+        <head>
+          <meta charset="utf-8"/>
+          <title>One-Click Analysis Report</title>
+          <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .kpi { display:inline-block; margin-right:20px; padding:10px; background:#f3f3f3; border-radius:6px; }
+            .table { width:100%; border-collapse: collapse; margin-bottom: 20px; }
+            .table th, .table td { border:1px solid #ddd; padding:6px; text-align:left; }
+            .plot img { max-width: 100%; height: auto; border:1px solid #ccc; padding:4px; background:#fff; }
+          </style>
+        </head>
+        <body>
+          <h1>One-Click Analysis Report</h1>
+          <p>Generated: 2026-02-05T05:26:02.498530 UTC</p>
+          <h2>Key Performance Indicators</h2>
+          <div><div class='kpi'><strong>Total Revenue:</strong> $657.00</div>
+<div class='kpi'><strong>Total Profit:</strong> $444.00</div>
+<div class='kpi'><strong>Orders:</strong> 10</div>
+<div class='kpi'><strong>Avg Order Value:</strong> $65.70</div></div>
+          <h2>Plots</h2>
+          <div><div class='plot'><img src='../dashboards/plots\oneclick_sales_trend.png' alt='oneclick_sales_trend.png' style='max-width:600px;'></div>
+<div class='plot'><img src='../dashboards/plots\oneclick_product_comp.png' alt='oneclick_product_comp.png' style='max-width:600px;'></div>
+<div class='plot'><img src='../dashboards/plots\oneclick_region_perf.png' alt='oneclick_region_perf.png' style='max-width:600px;'></div></div>
+          <h3>Top Products</h3><table class='table'><thead><tr><th>product_name</th><th>revenue</th><th>cost</th><th>profit</th><th>margin</th></tr></thead><tbody><tr><td>Widget A</td><td>275.0</td><td>45.0</td><td>230.0</td><td>0.8363636363636363</td></tr><tr><td>Gadget B</td><td>120.0</td><td>44.0</td><td>76.0</td><td>0.6333333333333333</td></tr><tr><td>Accessory X</td><td>72.0</td><td>6.0</td><td>66.0</td><td>0.9166666666666666</td></tr><tr><td>Bundle Pack</td><td>100.0</td><td>60.0</td><td>40.0</td><td>0.4</td></tr><tr><td>New Gizmo</td><td>75.0</td><td>50.0</td><td>25.0</td><td>0.3333333333333333</td></tr></tbody></table>
+          <h3>Bottom Products</h3><table class='table'><thead><tr><th>product_name</th><th>revenue</th><th>cost</th><th>profit</th><th>margin</th></tr></thead><tbody><tr><td>Gadget B</td><td>120.0</td><td>44.0</td><td>76.0</td><td>0.6333333333333333</td></tr><tr><td>Accessory X</td><td>72.0</td><td>6.0</td><td>66.0</td><td>0.9166666666666666</td></tr><tr><td>Bundle Pack</td><td>100.0</td><td>60.0</td><td>40.0</td><td>0.4</td></tr><tr><td>New Gizmo</td><td>75.0</td><td>50.0</td><td>25.0</td><td>0.3333333333333333</td></tr><tr><td>Widget C</td><td>15.0</td><td>8.0</td><td>7.0</td><td>0.4666666666666667</td></tr></tbody></table>
+          <h2>Recommendations</h2>
+          <ul><li>{&#x27;product_id&#x27;: &#x27;Accessory X&#x27;, &#x27;action&#x27;: &#x27;increase_stock&#x27;, &#x27;reason&#x27;: &#x27;Forecasted increase 100.00%&#x27;}</li><li>{&#x27;product_id&#x27;: &#x27;Bundle Pack&#x27;, &#x27;action&#x27;: &#x27;increase_stock&#x27;, &#x27;reason&#x27;: &#x27;Forecasted increase 100.00%&#x27;}</li><li>{&#x27;product_id&#x27;: &#x27;Gadget B&#x27;, &#x27;action&#x27;: &#x27;increase_stock&#x27;, &#x27;reason&#x27;: &#x27;Forecasted increase 100.00%&#x27;}</li><li>{&#x27;product_id&#x27;: &#x27;New Gizmo&#x27;, &#x27;action&#x27;: &#x27;increase_stock&#x27;, &#x27;reason&#x27;: &#x27;Forecasted increase 100.00%&#x27;}</li><li>{&#x27;action&#x27;: &#x27;bundle_suggestion&#x27;, &#x27;details&#x27;: &#x27;Consider bundling low-price accessory items with high-value products.&#x27;}</li></ul>
+          <h2>Forecast Summary</h2>
+          <pre>{&#x27;product&#x27;: &#x27;Widget A&#x27;, &#x27;sarima_forecast&#x27;: [4.02234636756489, 4.044817575165617, 4.067414320232511, 4.090137304092164, 4.112987231989193, 4.135964813108125, 4.159070760595417, 4.18230579158158, 4.205670627203443, 4.229165992626531, 4.2527926170675725, 4.276551233817133, 4.300442580262374, 4.3244673979099355], &#x27;model_path&#x27;: &#x27;models\\sarima_quantity.pkl&#x27;}</pre>
+        </body>
+        </html>
+        

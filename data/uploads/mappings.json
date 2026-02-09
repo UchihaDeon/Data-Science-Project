@@ -1,0 +1,16 @@
+{
+  "date,region,product,sales.csv": {
+    "order_id": "product",
+    "order_date": "date",
+    "product_id": "product",
+    "product_name": "product",
+    "category": "region",
+    "region": "region",
+    "quantity": "date",
+    "unit_price": "sales",
+    "cost": "date",
+    "customer_id": "",
+    "currency": "",
+    "stock": "date"
+  }
+}

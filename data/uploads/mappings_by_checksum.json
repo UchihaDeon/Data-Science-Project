@@ -1,0 +1,31 @@
+{
+  "abc84b847bb8e3defc972f1daaf25205": {
+    "order_id": "",
+    "order_date": "date",
+    "product_id": "product",
+    "product_name": "product",
+    "category": "",
+    "region": "region",
+    "quantity": "sales",
+    "unit_price": "sales",
+    "cost": "sales",
+    "customer_id": "",
+    "currency": "product",
+    "stock": "",
+    "revenue": "sales",
+    "profit": ""
+  },
+  "68c9734d9189adae43ee2e0a9b0099fd": {
+    "order_date": "PreviousPurchases",
+    "order_id": "CustomerID",
+    "quantity": "Age",
+    "unit_price": "",
+    "revenue": "Amount",
+    "cost": "",
+    "product_name": "ItemPurchased",
+    "product_id": "",
+    "category": "Category",
+    "region": "",
+    "customer_id": "CustomerID"
+  }
+}
